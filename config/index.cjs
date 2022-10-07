@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ohlLm6KN02Sx7c3x-Oj71cxc7Ik4',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'NUfvnhNBJahQPf9EW4nm4m5YQT33Xmm4BLWM_ViOoBw',
+      useTemplateId: 'w6GS1BWU1ruoRFBWa_rmZrEbD-wNmmXhdifp79zfbHY',
       // 所在省份或城市，也可以不填
       province: '四川',
       // 所在城市或县区
@@ -86,14 +86,14 @@ const USER_CONFIG = {
         },
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
-      customizedDateList: [
+      //customizedDateList: [],
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        //{ keyword: 'love_day', date: '2022-09-08' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        //{ keyword: 'marry_day', date: '2022-09-09' },
         // 退伍日
-        { keyword: 'ex_day', date: '2022-09-10' }
-      ],
+        //{ keyword: 'ex_day', date: '2022-09-10' }
+      
       // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
       // 如果courseSchedule是一个数组，则认为不区分单双周，直接填写星期几对应的课表数据即可
