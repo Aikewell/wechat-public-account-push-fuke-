@@ -63,7 +63,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '小张',
+      name: '小志',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ohlLm6KN02Sx7c3x-Oj71cxc7Ik4',
       // 你想对他发送的模板消息的模板ID
@@ -82,7 +82,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '巧猪猪', year: '2001', date: '07-01',
+          type: '生日', name: '小志', year: '2001', date: '07-01',
         },
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
