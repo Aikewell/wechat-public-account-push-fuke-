@@ -7,12 +7,12 @@ const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: '',
+  APP_ID: 'wxa1c69c4731c3f11c',
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: '',
+  APP_SECRET: '2288121f58ff1496e7b127b0d933d394',
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -48,7 +48,7 @@ const USER_CONFIG = {
     birthdayMessage: true,
 
     // 学生课表
-    courseSchedule: false,
+    courseSchedule: true,
   },
 
   /** 每日一言 */
@@ -67,9 +67,9 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ohlLm6KN02Sx7c3x-Oj71cxc7Ik4',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '	FpDpdvuNTV3BViLC3lTh-crx08y7IJhhYTZoxa3e9hU',
+      useTemplateId: 'FpDpdvuNTV3BViLC3lTh-crx08y7IJhhYTZoxa3e9hU',
       // 所在省份或城市，也可以不填
-      province: '四川',
+      province: '',
       // 所在城市或县区
       city: '泸州',
       // 新历生日, 仅用作获取星座运势, 格式必须
