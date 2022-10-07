@@ -180,41 +180,126 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
+      name: '远远',
+      id: 'ohlLm6MffAHwKc2QctfmUTdYzcl4',
+      useTemplateId: '4YPJZoaZQhKoYACXw-71wTZQU7zrCs8C0b6duKEBHPQ',
+      province: '内蒙古',
+      city: '呼和浩特',
+      openUrl: 'https://www.baidu.com/',
+      festivals: [
+        {
+          type: '生日', name: '远远', year: '2001', date: '12-25',
+        },
+      ],
       customizedDateList: [],
       courseSchedule: null
     },
     {
-      name: '老婆2',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
+      name: '巧某人',
+      id: 'ohlLm6KN02Sx7c3x-Oj71cxc7Ik4',
+      useTemplateId: 'piamCz0MLLAiYzymr9Slz8yD9b7K87FLacx-9Y0h_Xs',
+      province: '四川',
+      city: '泸州',
+      openUrl: 'https://www.baidu.com/',
+      festivals: [
+        {
+          type: '生日', name: '巧猪猪', year: '2002', date: '08-10',
+        },
+      ],
       customizedDateList: [],
-      courseSchedule: null
+      courseSchedule: {
+        // 单双周的基准
+        benchmark: {
+          // 这里设置一个日期，用来作为判断课表是否单双周的依据
+          date: '2022-10-06',
+          // 该日期是否为单周
+          isOdd: true
+        },
+        // 课表
+        courses: {
+          // 单周课表
+          // 从星期一到星期日（星期六和星期日的课表数组可不填写）
+          odd: [
+            // 例子，周一的课表
+            [
+              '08:00-09:30 中医外科学',
+              '09:40-12:00 金匮要略',
+              '14:30-16:50 诊断学'
+            ],
+            // 周二
+            [
+              '08:00-09:30 病理生理学'
+            ],
+            // 周三
+            [
+              '08:00-10:20 药理学',
+              '14:30-16:50 中医内科学'
+            ],
+            // 周四
+            [
+              '14:30-16:00 中医外科学'
+            ],
+            // 周五
+            [
+              '09:40-12:00 诊断学',
+              '14:30-16:50 中医内科学'
+            ],
+            // 周六
+            [
+              '09:40-12:00 大学语文'
+            ],
+            // 周日
+            []
+          ],
+          // 双周课表
+          even: [
+            // 例子，周一的课表
+            [
+              '08:00-09:30 中医外科学',
+              '09:40-12:00 金匮要略',
+              '14:30-16:50 诊断学'
+            ],
+            // 周二
+            [
+              '08:00-09:30 病理生理学',
+              '14:30-17:40 药理学实验'
+            ],
+            // 周三
+            [
+              '08:00-10:20 药理学',
+              '14:30-16:50 中医内科学'
+            ],
+            // 周四
+            [
+              '14:30-16:00 中医外科学'
+            ],
+            // 周五
+            [
+              '09:40-12:00 诊断学',
+              '14:30-16:50 中医内科学'
+            ],
+            // 周六
+            [
+              '09:40-12:00 大学语文'
+            ],
+            // 周日
+            []
+          ]
+        }
+      },
     },
     {
-      name: '老婆3',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
+      name: '珺珺',
+      id: 'ohlLm6KN02Sx7c3x-Oj71cxc7Ik4',
+      useTemplateId: 'Ac3sZHTZwo2G1pBD4yODTGzDgkQ13H67xci-NZ41cNc',
+      province: '湖北',
+      city: '武汉',
+      openUrl: 'https://www.baidu.com',
+      festivals: [
+        {
+          type: '生日', name: '珺珺', year: '2003', date: '07-31',
+        },
+      ],
       customizedDateList: [],
       courseSchedule: null
     }
