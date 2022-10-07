@@ -196,7 +196,7 @@ const USER_CONFIG = {
     },
     {
       name: '巧某人',
-      id: 'ohlLm6KN02Sx7c3x-Oj71cxc7Ik4',
+      id: 'ohlLm6DEYqsCW3cllziHlLSyP6Ug',
       useTemplateId: 'piamCz0MLLAiYzymr9Slz8yD9b7K87FLacx-9Y0h_Xs',
       province: '四川',
       city: '泸州',
@@ -290,7 +290,7 @@ const USER_CONFIG = {
     },
     {
       name: '珺珺',
-      id: 'ohlLm6KN02Sx7c3x-Oj71cxc7Ik4',
+      id: 'ohlLm6GEBrmBOcIzuXIdG1cw-xiM',
       useTemplateId: 'Ac3sZHTZwo2G1pBD4yODTGzDgkQ13H67xci-NZ41cNc',
       province: '湖北',
       city: '武汉',
