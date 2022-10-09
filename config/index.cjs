@@ -7,12 +7,12 @@ const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: 'wxa1c69c4731c3f11c',
+  APP_ID: '',
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: '2288121f58ff1496e7b127b0d933d394',
+  APP_SECRET: '',
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -302,7 +302,22 @@ const USER_CONFIG = {
       ],
       customizedDateList: [],
       courseSchedule: null
-    }
+    },
+    {
+      name: '董师姐',
+      id: 'ohlLm6OJxlg1KiDewUljXase3O8k',
+      useTemplateId: 'r_0O47Gh-WaqaoWlHW7PdsQNSMdWlNGS8DeXY17NFI8',
+      province: '四川',
+      city: '泸州',
+      openUrl: 'https://www.baidu.com',
+      festivals: [
+        {
+          type: '生日', name: '师姐', year: '2000', date: '12-10',
+        },
+      ],
+      customizedDateList: [],
+      courseSchedule: null
+    },
     // 你可以不断按格式往下增加
     // ...
   ],
