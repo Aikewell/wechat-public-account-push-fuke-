@@ -320,14 +320,14 @@ const USER_CONFIG = {
     },
     {
       name: '瑞瑞',
-      id: 'ohlLm6KN02Sx7c3x-Oj71cxc7Ik4',
-      useTemplateId: 'sM8h_wwGI2ieLKp3pC23MgUL_tJeSjMwIv8ObM2L0ew',
+      id: 'ohlLm6MA0XZqUMQnd44_Hxw4kQxY',
+      useTemplateId: 'pWc6mSZId9pI-LBk01BXfPXNWBvPfUiMkIk8Q67ii94',
       province: '四川',
       city: '泸州',
       openUrl: 'https://www.baidu.com/',
       festivals: [
         {
-          type: '生日', name: '瑞瑞', year: '2001', date: '05-16',
+          type: '生日', name: '瓜瑞瑞', year: '2001', date: '05-16',
         },
       ],
       customizedDateList: [],
