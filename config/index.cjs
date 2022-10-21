@@ -180,21 +180,6 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '远远',
-      id: 'ohlLm6MffAHwKc2QctfmUTdYzcl4',
-      useTemplateId: '4YPJZoaZQhKoYACXw-71wTZQU7zrCs8C0b6duKEBHPQ',
-      province: '内蒙古',
-      city: '呼和浩特',
-      openUrl: 'https://www.baidu.com/',
-      festivals: [
-        {
-          type: '生日', name: '远远', year: '2001', date: '12-25',
-        },
-      ],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
       name: '巧某人',
       id: 'ohlLm6DEYqsCW3cllziHlLSyP6Ug',
       useTemplateId: 'piamCz0MLLAiYzymr9Slz8yD9b7K87FLacx-9Y0h_Xs',
