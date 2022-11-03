@@ -180,21 +180,6 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '珺珺',
-      id: 'ohlLm6GEBrmBOcIzuXIdG1cw-xiM',
-      useTemplateId: 'Ac3sZHTZwo2G1pBD4yODTGzDgkQ13H67xci-NZ41cNc',
-      province: '湖北',
-      city: '武汉',
-      openUrl: 'https://www.baidu.com',
-      festivals: [
-        {
-          type: '生日', name: '珺珺', year: '2003', date: '07-31',
-        },
-      ],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
       name: '董师姐',
       id: 'ohlLm6OJxlg1KiDewUljXase3O8k',
       useTemplateId: 'r_0O47Gh-WaqaoWlHW7PdsQNSMdWlNGS8DeXY17NFI8',
