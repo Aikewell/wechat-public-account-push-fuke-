@@ -288,21 +288,7 @@ const USER_CONFIG = {
         }
       },
     },
-    {
-      name: '董师姐',
-      id: 'ohlLm6OJxlg1KiDewUljXase3O8k',
-      useTemplateId: 'r_0O47Gh-WaqaoWlHW7PdsQNSMdWlNGS8DeXY17NFI8',
-      province: '四川',
-      city: '泸州',
-      openUrl: 'https://www.baidu.com',
-      festivals: [
-        {
-          type: '生日', name: '师姐', year: '2000', date: '12-10',
-        },
-      ],
-      customizedDateList: [],
-      courseSchedule: null
-    },
+    
     // 你可以不断按格式往下增加
     // ...
   ],
