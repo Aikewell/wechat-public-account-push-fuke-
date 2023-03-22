@@ -183,7 +183,7 @@ const USER_CONFIG = {
     {
       name: '乖乖',
       id: 'ohlLm6KN02Sx7c3x-Oj71cxc7Ik4',
-      useTemplateId: '	G1t96LF8UD-MoQZGLUCPOJx1kiaZ2l8qtPXHmBTQPOw',
+      useTemplateId: 'G1t96LF8UD-MoQZGLUCPOJx1kiaZ2l8qtPXHmBTQPOw',
       province: '湖北',
       city: '武汉',
       openUrl: 'https://www.baidu.com',
