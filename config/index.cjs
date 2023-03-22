@@ -183,7 +183,7 @@ const USER_CONFIG = {
     {
       name: '珺珺',
       id: 'ohlLm6KN02Sx7c3x-Oj71cxc7Ik4',
-      useTemplateId: '33HP2tKRJ86g7gqL3wbQ8BB2cF09TPK8A6CYU_agyXI',
+      useTemplateId: 'RxPd3STAL-Cp-wtGYKD_eonuQrSs2mfnIi4RhSG_NBg',
       province: '湖北',
       city: '武汉',
       openUrl: 'https://www.baidu.com',
@@ -483,14 +483,15 @@ const USER_CONFIG = {
    * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
    * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }}
    * */
-  //SLOT_LIST: []
+  SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    //{ keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
+    { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
+  ],
     // 这样配置的话，就会每次随机选一句话发送
     //{
       //keyword: 'lover_prattle',
       //contents: []
-      }
+      //}
     // 你可以不断按格式往下增加
     // ...
   
