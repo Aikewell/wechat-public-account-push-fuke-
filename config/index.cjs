@@ -181,15 +181,15 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '珺珺',
+      name: '乖乖',
       id: 'ohlLm6KN02Sx7c3x-Oj71cxc7Ik4',
-      useTemplateId: 'RxPd3STAL-Cp-wtGYKD_eonuQrSs2mfnIi4RhSG_NBg',
+      useTemplateId: '	G1t96LF8UD-MoQZGLUCPOJx1kiaZ2l8qtPXHmBTQPOw',
       province: '湖北',
       city: '武汉',
       openUrl: 'https://www.baidu.com',
       festivals: [
         {
-          type: '生日', name: '珺珺', year: '2003', date: '07-31',
+          type: '生日', name: '乖乖', year: '2003', date: '07-31',
         },
       ],
       customizedDateList: [],
@@ -485,7 +485,7 @@ const USER_CONFIG = {
    * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' }
+    { keyword: 'encourage_oneself', contents: '是坚定是王敢敢是心尖尖上是我的一个亿' }
   ],
     // 这样配置的话，就会每次随机选一句话发送
     //{
