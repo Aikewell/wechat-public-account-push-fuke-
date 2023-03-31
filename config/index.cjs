@@ -485,7 +485,7 @@ const USER_CONFIG = {
    * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    { keyword: 'encourage_oneself', contents: '是坚定是王敢敢是心尖尖上是我的一个亿' }
+    { keyword: 'encourage_oneself', contents: '心心之间，念念无远，乖乖。' }
   ],
     // 这样配置的话，就会每次随机选一句话发送
     //{
